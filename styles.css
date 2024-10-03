@@ -109,7 +109,7 @@ main {
 
 .user__location {
     color: var(--bg-green);
-    font-weight: 400;
+    font-weight: 600;
     font-size: .8rem;
 }
 
@@ -133,7 +133,7 @@ main {
     padding: 15px;
     border-radius: 5px;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .9rem;
     transition: all 300ms ease;
     cursor: pointer;
 }
