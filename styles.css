@@ -29,6 +29,7 @@
     --bg-grey-700: hsl(0, 0%, 20%);
     --bg-grey-800: hsl(0, 0%, 12%);
     --bg-grey-900: hsl(0, 0%, 8%);
+    --size-img: 96px
 }
 
 /* End of Styles Variables */
@@ -88,8 +89,8 @@ main {
 }
 
 .profile__photo {
-    width: 64px;
-    height: 64px;
+    width: var(--size-img);
+    height: var(--size-img);
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
