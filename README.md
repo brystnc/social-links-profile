@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://brystnc.github.io/social-links-profile/](https://your-live-site-url.com)
+- Live Site URL: [https://brystnc.github.io/social-links-profile/](https://brystnc.github.io/social-links-profile/)
 
 ## My process
 
