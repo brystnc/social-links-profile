@@ -1,3 +1,27 @@
+/*  Font Load */
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/static/Inter-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*  End Font Load */
+
 /* Styles Variables */
 :root {
     --text-white: hsl(0, 0%, 100%);
@@ -6,6 +30,7 @@
     --bg-grey-800: hsl(0, 0%, 12%);
     --bg-grey-900: hsl(0, 0%, 8%);
 }
+
 /* End of Styles Variables */
 
 /* General Styles */
@@ -22,7 +47,7 @@ a {
 body {
     display: grid;
     grid-template-areas: 'main'
-    'footer';
+        'footer';
     grid-template-rows: 1fr auto;
     height: 100vh;
     margin: 0;
@@ -32,6 +57,7 @@ body {
     background-color: var(--bg-grey-900);
     color: var(--text-white);
 }
+
 /* End of General Styles*/
 
 /* Styles of Section Main */
@@ -118,6 +144,7 @@ main {
     background-color: var(--bg-green);
     color: var(--bg-grey-900);
 }
+
 /* End of Section Main Styles */
 
 /* Styles of Footer */
@@ -125,4 +152,14 @@ footer {
     grid-area: footer;
     height: 40px;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--bg-green)
+}
+
 /* End of Styles of Footer*/
