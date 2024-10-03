@@ -61,7 +61,7 @@ body {
 /* End of General Styles*/
 
 /* Styles of Section Main */
-main {
+.main {
     grid-area: main;
     display: flex;
     align-items: center;
