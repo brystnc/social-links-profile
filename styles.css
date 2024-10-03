@@ -159,7 +159,8 @@ footer {
 }
 
 .attribution a {
-    color: var(--bg-green)
+    color: var(--bg-green);
+    text-decoration: underline;
 }
 
 /* End of Styles of Footer*/
